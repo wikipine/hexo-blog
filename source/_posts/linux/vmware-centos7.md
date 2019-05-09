@@ -51,8 +51,7 @@ Q3:共享文件设置，这个很重要，毕竟虚拟机的硬盘不能分配�
 
 网络的基本属性可在【编辑】->【虚拟网络编辑器】 中查看
 
-![NAT 设置](https://upload-images.jianshu.io/upload_images/1932840-a01b44143752ae2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![NAT 设置](vmware-centos7/vmware-centos7-1.png)
 NAT设置中的 **网关IP** 在静态配置中会使用到，一般来说不用修改。
 
 打开网卡编辑文件
@@ -136,7 +135,7 @@ vmware-hgfsclient
 
 共享的设置
 
-![dir_share_set.png](https://upload-images.jianshu.io/upload_images/1932840-c1eef871ea9a4ec6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![dir_share_set.png](vmware-centos7/dir-share-set.png)
 
 不过仅执行上一步，还是无法看到共享的文件的
 

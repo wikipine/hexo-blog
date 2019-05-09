@@ -20,7 +20,7 @@ LNMP安装之后，Nginx无法访问共享的目录
 ps aux | grep 'nginx'
 ```
 
-![nginx_aux_www.png](https://upload-images.jianshu.io/upload_images/1932840-94dd07f2a3b3aed9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![nginx_aux_www.png](vmware-php-gz/nginx-aux-www.png)
 
 修改Nginx的权限为 root 启动
 
@@ -32,7 +32,7 @@ vi /usr/local/nginx/conf/nginx.conf
 nginx -s reload
 ```
 
-![nginx_aux_root.png](https://upload-images.jianshu.io/upload_images/1932840-013b3c1247682b0a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![nginx_aux_root.png](vmware-php-gz/nginx-aux-root.png)
 
 这样Nginx就能访问挂载下的目录文件了，至少 静态文件 ok的
 
@@ -44,7 +44,7 @@ nginx -s reload
 ps aux | grep 'php-fpm'
 ```
 
-![php_aux_www.png](https://upload-images.jianshu.io/upload_images/1932840-766a49f3343948b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![php_aux_www.png](vmware-php-gz/php-aux-www.png)
 
 修改 php-fpm权限为root 启动
 

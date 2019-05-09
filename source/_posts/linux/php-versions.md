@@ -20,7 +20,7 @@ comments: true
 ```php
 ./install.sh mphp
 ```
-![versions-php-start.png](https://upload-images.jianshu.io/upload_images/1932840-c2fd6a60aacd76b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![versions-php-start.png](php-versions/versions-php-start.png)
 
 选择想要的版本，Enter,喝杯咖啡，等待结果就行
 
@@ -28,7 +28,7 @@ comments: true
 
 在 /usr/local 目录下，你会发现多了个 php7.1
 
-![versions-php-second.png](https://upload-images.jianshu.io/upload_images/1932840-adc8ff16c1608e5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![versions-php-second.png](php-versions/versions-php-second.png)
 
 检查一下是否已经启动
 
@@ -36,7 +36,7 @@ comments: true
 ps aux | grep 'php-fpm'
 ```
 
-![versions-php-third.png](https://upload-images.jianshu.io/upload_images/1932840-b4253edcafdfab3f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![versions-php-third.png](php-versions/versions-php-third.png)
 
 看来自动启动好了
 
@@ -191,7 +191,7 @@ chkconfig --add php-fpm5.3.29
 
 接下来 reboot 
 
-![versions-php-5329.png](https://upload-images.jianshu.io/upload_images/1932840-4302aff1ce204b32.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![versions-php-5329.png](php-versions/versions-php5329.png)
 
 上图可看到，三种php-fpm已经启动
 
